@@ -1,0 +1,17 @@
+<h1 class="my-4">Rick & Morty Character List</h1>
+
+<div
+  class="character-list p-2 border rounded-2 bg-light-subtle"
+  cdkVirtualScrollingElement
+>
+  <cdk-virtual-scroll-viewport
+    [itemSize]="itemSize"
+    (scrolledIndexChange)="onScrollIndexChange()"
+    class="h-100"
+  >
+    <app-character
+      *cdkVirtualFor="let character of characterSignal(); trackBy: trackById"
+      [character]="character"
+    ></app-character>
+  </cdk-virtual-scroll-viewport>
+</div>
