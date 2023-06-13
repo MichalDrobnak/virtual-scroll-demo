@@ -4,7 +4,7 @@ This is a demo application for the [Angular CDK virtual scroll](https://material
 
 It uses a public [Rick & Morty API](https://rickandmortyapi.com/) for fetching character data. A big thank you to [Alex Fuhrmann](https://github.com/afuh) and [Talita](https://talitatraveler.com/) for creating this.
 
-The demo application is available at [StackBlitz](https://stackblitz.com/edit/stackblitz-starters-yybssk?file=src%2Fapp%2Fcomponents%2Fcharacter-list%2Fcharacter-list.component.ts).
+The demo application is available at [StackBlitz](https://stackblitz.com/edit/virtual-scroll-rm-demo?file=src%2Fapp%2Fcomponents%2Fcharacter-list%2Fcharacter-list.component.ts).
 
 ## Development server
 
