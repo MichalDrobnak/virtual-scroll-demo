@@ -1,8 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, signal } from '@angular/core';
 import { Observable } from 'rxjs';
-import { IPagedResponse } from '../models/paged-response.interface';
-import { ICharacter } from '../models/character.interface';
+import { IPagedResponse, ICharacter } from '../models';
 
 const CharactersUrl = 'https://rickandmortyapi.com/api/character/';
 

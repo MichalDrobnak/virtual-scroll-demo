@@ -6,8 +6,8 @@ import {
   ViewChild,
   inject,
 } from '@angular/core';
-import { ICharacter } from 'src/app/models/character.interface';
-import { CharacterService } from 'src/app/services/character.service';
+import { ICharacter } from '../../models';
+import { CharacterService } from '../../services';
 
 const CharacterHeightRem = 7;
 const CharacterSpacingRem = 1;
